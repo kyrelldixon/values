@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Nav from './Nav';
 import Values from './Values';
-import Section from './Section';
 
 const mockValues = [
   'Authenticity',
@@ -15,15 +14,16 @@ const App = () => {
   const [values,] = useState(mockValues);
 
   return (
-    <Section>
+    <Layout>
       <Header />
       <Nav />
-      <Section>
-        <Values values={values} />
-      </Section>
-    </Section>
+      <Values values={values} />
+    </Layout>
   );
 }
 
+const Layout = ({ children }) => (
+  <section className="text-gray-900 pt-12 px-4">{children}</section>
+)
 
 export default App;
