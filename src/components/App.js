@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Nav from './Nav';
 import Values from './Values';
+import Layout from './Layout';
 
 const mockValues = [
   'Authenticity',
@@ -21,9 +22,5 @@ const App = () => {
     </Layout>
   );
 }
-
-const Layout = ({ children }) => (
-  <section className="text-gray-900 pt-12 px-4">{children}</section>
-)
 
 export default App;
