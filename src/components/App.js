@@ -9,7 +9,7 @@ const mockValues = [
   'Adventure',
   'Achievement',
   'Authority',
-]
+];
 
 const App = () => {
   const [values,] = useState(mockValues);
@@ -22,7 +22,7 @@ const App = () => {
         <Values values={values} />
       </Section>
     </Section>
-  )
+  );
 }
 
 
