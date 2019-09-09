@@ -5,12 +5,7 @@ import Values from './Values';
 import Layout from './Layout';
 import Container from './Container';
 
-const mockValues = [
-  'Authenticity',
-  'Adventure',
-  'Achievement',
-  'Authority',
-];
+import mockValues from '../values.json';
 
 const App = () => {
   const [values,] = useState(mockValues);
