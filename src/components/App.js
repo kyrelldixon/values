@@ -1,24 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './Header';
 import Nav from './Nav';
+import Values from './Values';
 
-const values = [
+const mockValues = [
   'Authenticity',
   'Adventure',
   'Achievement',
   'Authority',
 ]
 
-const App = () => (
-  <section>
-    <Header />
-    <Nav />
+const App = () => {
+  const [values,] = useState(mockValues);
+
+  return (
     <section>
-      <ul>
-        { values.map(value => <li key={value}>{value}</li>) }
-      </ul>
+      <Header />
+      <Nav />
+      <section>
+        <Values values={values} />
+      </section>
     </section>
-  </section>
-)
+  )
+}
+
 
 export default App;
