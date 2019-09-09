@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Values = ({ values }) => (
-  <ul className="flex flex-col">
+  <ul className="flex flex-col mb-4">
     { values.map(value => <ValueCard key={value} value={value} />) }
   </ul>
 );
