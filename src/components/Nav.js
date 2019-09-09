@@ -2,10 +2,8 @@ import React from 'react';
 
 const Nav = () => (
   <nav>
-    <ul>
-      <li>Sort Values</li>
-      <li>Your Top 10</li>
-    </ul>
+    <button>Sort Values</button>
+    <button>Your Top 10</button>
   </nav>
 );
 
