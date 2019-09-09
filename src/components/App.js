@@ -3,6 +3,7 @@ import Header from './Header';
 import Nav from './Nav';
 import Values from './Values';
 import Layout from './Layout';
+import Container from './Container';
 
 const mockValues = [
   'Authenticity',
@@ -16,9 +17,11 @@ const App = () => {
 
   return (
     <Layout>
-      <Header />
-      <Nav />
-      <Values values={values} />
+      <Container>
+        <Header />
+        <Nav />
+        <Values values={values} />
+      </Container>
     </Layout>
   );
 }
