@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from './Header';
+import Nav from './Nav';
 
 const values = [
   'Authenticity',
@@ -9,16 +11,8 @@ const values = [
 
 const App = () => (
   <section>
-    <header>
-      <h1>Discover your 10 core values</h1>
-      <p>It'll take less than 5 minutes</p>
-    </header>
-    <nav>
-      <ul>
-        <li>Sort Values</li>
-        <li>Your Top 10</li>
-      </ul>
-    </nav>
+    <Header />
+    <Nav />
     <section>
       <ul>
         { values.map(value => <li key={value}>{value}</li>) }
