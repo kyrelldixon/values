@@ -3357,6 +3357,34 @@ video {
   cursor: not-allowed;
 }
 
+.disabled\:cursor-auto:disabled {
+  cursor: auto;
+}
+
+.disabled\:cursor-default:disabled {
+  cursor: default;
+}
+
+.disabled\:cursor-pointer:disabled {
+  cursor: pointer;
+}
+
+.disabled\:cursor-wait:disabled {
+  cursor: wait;
+}
+
+.disabled\:cursor-text:disabled {
+  cursor: text;
+}
+
+.disabled\:cursor-move:disabled {
+  cursor: move;
+}
+
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+
 .block {
   display: block;
 }
@@ -14070,34 +14098,6 @@ video {
     border-left-width: 1px;
   }
 
-  .sm\:cursor-auto {
-    cursor: auto;
-  }
-
-  .sm\:cursor-default {
-    cursor: default;
-  }
-
-  .sm\:cursor-pointer {
-    cursor: pointer;
-  }
-
-  .sm\:cursor-wait {
-    cursor: wait;
-  }
-
-  .sm\:cursor-text {
-    cursor: text;
-  }
-
-  .sm\:cursor-move {
-    cursor: move;
-  }
-
-  .sm\:cursor-not-allowed {
-    cursor: not-allowed;
-  }
-
   .sm\:block {
     display: block;
   }
@@ -24770,34 +24770,6 @@ video {
 
   .md\:border-l {
     border-left-width: 1px;
-  }
-
-  .md\:cursor-auto {
-    cursor: auto;
-  }
-
-  .md\:cursor-default {
-    cursor: default;
-  }
-
-  .md\:cursor-pointer {
-    cursor: pointer;
-  }
-
-  .md\:cursor-wait {
-    cursor: wait;
-  }
-
-  .md\:cursor-text {
-    cursor: text;
-  }
-
-  .md\:cursor-move {
-    cursor: move;
-  }
-
-  .md\:cursor-not-allowed {
-    cursor: not-allowed;
   }
 
   .md\:block {
@@ -35474,34 +35446,6 @@ video {
     border-left-width: 1px;
   }
 
-  .lg\:cursor-auto {
-    cursor: auto;
-  }
-
-  .lg\:cursor-default {
-    cursor: default;
-  }
-
-  .lg\:cursor-pointer {
-    cursor: pointer;
-  }
-
-  .lg\:cursor-wait {
-    cursor: wait;
-  }
-
-  .lg\:cursor-text {
-    cursor: text;
-  }
-
-  .lg\:cursor-move {
-    cursor: move;
-  }
-
-  .lg\:cursor-not-allowed {
-    cursor: not-allowed;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -46174,34 +46118,6 @@ video {
 
   .xl\:border-l {
     border-left-width: 1px;
-  }
-
-  .xl\:cursor-auto {
-    cursor: auto;
-  }
-
-  .xl\:cursor-default {
-    cursor: default;
-  }
-
-  .xl\:cursor-pointer {
-    cursor: pointer;
-  }
-
-  .xl\:cursor-wait {
-    cursor: wait;
-  }
-
-  .xl\:cursor-text {
-    cursor: text;
-  }
-
-  .xl\:cursor-move {
-    cursor: move;
-  }
-
-  .xl\:cursor-not-allowed {
-    cursor: not-allowed;
   }
 
   .xl\:block {
