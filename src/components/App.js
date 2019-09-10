@@ -12,8 +12,8 @@ const App = () => {
 
   return (
     <Layout>
+      <Header />
       <Container>
-        <Header />
         <Nav />
         <Values values={values} />
       </Container>
