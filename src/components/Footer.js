@@ -13,7 +13,7 @@ const Footer = () => (
         </small>
       </div>
     </div>
-    <button className="bg-purple-600 opacity-50 cursor-not-allowed text-white font-medium p-2 rounded">Your Top 10</button>
+    <button className="bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-medium p-2 rounded" disabled>Your Top 10</button>
   </footer>
 );
 
