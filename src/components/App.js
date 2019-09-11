@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import Layout from './Layout';
-import Footer from './Footer';
 import StepForm from './StepForm';
 
 import useValues from '../hooks/use-values';
@@ -15,7 +14,6 @@ const App = () => {
     <Layout>
       <Header />
       <StepForm values={values} toggleValue={toggleValue} />
-      <Footer values={values} />
     </Layout>
   );
 }
