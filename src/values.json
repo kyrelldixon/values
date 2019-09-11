@@ -1,490 +1,490 @@
 [
   {
     "name": "Abundance",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Acceptance",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Accountability",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Achievement",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Adventure",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Advocacy",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Ambition",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Appreciation",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Attractiveness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Autonomy",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Balance",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Being the Best",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Benevolence",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Boldness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Brilliance",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Calmness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Caring",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Challenge",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Charity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Cheerfulness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Cleverness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Collaboration",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Community",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Commitment",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Compassion",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Consistency",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Contribution",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Cooperation",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Creativity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Credibility",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Curiosity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Daring",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Decisiveness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Dedication",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Dependability",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Diversity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Empathy",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Encouragement",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Enthusiasm",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Ethics",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Excellence",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Expressiveness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Fairness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Family",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Flexibility",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Friendships",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Freedom",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Fun",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Generosity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Grace",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Growth",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Happiness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Health",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Honesty",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Humility",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Humor",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Inclusiveness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Independence",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Individuality",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Innovation",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Inspiration",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Intelligence",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Intuition",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Joy",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Kindness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Knowledge",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Leadership",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Learning",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Love",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Loyalty",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Making a Difference",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Mindfulness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Motivation",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Optimism",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Open-Mindedness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Originality",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Passion",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Performance",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Personal Development",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Peace",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Perfection",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Playfulness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Popularity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Power",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Preparedness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Proactivity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Proactive",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Professionalism",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Punctuality",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Quality",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Recognition",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Relationships",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Reliability",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Resilience",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Resourcefulness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Responsibility",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Responsiveness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Risk Taking",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Safety",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Security",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Self-Control",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Selflessness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Service",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Simplicity",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Spirituality",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Stability",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Success",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Teamwork",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Thankfulness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Thoughtfulness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Traditionalism",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Trustworthiness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Understanding",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Uniqueness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Usefulness",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Versatility",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Vision",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Warmth",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Wealth",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Well-Being",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Wisdom",
-    "isCore": false
+    "isCore": null
   },
   {
     "name": "Zeal",
-    "isCore": false
+    "isCore": null
   }
 ]
