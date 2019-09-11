@@ -9,10 +9,6 @@ import Step2 from './Step2';
 const StepForm = ({ values, toggleValue }) => {
   const [step, setStep] = useState(1);
 
-  const nextStep = () => {
-    setStep(step + 1);
-  }
-
   const goToStep = step => () => setStep(step);
   
   const renderStep = () => {
@@ -27,7 +23,11 @@ const StepForm = ({ values, toggleValue }) => {
       <form className="mx-auto max-w-md">
         { renderStep() }
       </form>
-      <FormProgress currentStep={step} nextStep={nextStep} values={values} />
+      <FormProgress
+        currentStep={step}
+        goToStep2={goToStep(2)}
+        values={values}
+      />
     </Container>
   );
 }
