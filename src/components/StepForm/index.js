@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import StepIndicator from './StepIndicator';
+import StepIndicator from './StepNav';
 import Container from '../Container';
 import FormProgress from './FormProgress';
 
