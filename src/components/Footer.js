@@ -1,10 +1,7 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import ProgressBar from './ProgressBar';
 
-import ValuesContext from '../context/ValuesContext';
-
-const Footer = () => {
-  const values = useContext(ValuesContext);
+const Footer = ({ values }) => {
   const itemsLeft = values.filter(value => value.isCore === null);
   const coreValues = values.filter(value => value.isCore);
   const isDisabled = coreValues.length < 10;

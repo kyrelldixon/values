@@ -6,7 +6,6 @@ import Layout from './Layout';
 import Container from './Container';
 import Footer from './Footer';
 
-import { ValuesProvider } from '../context/ValuesContext';
 import allValues from '../values.json';
 
 const App = () => {
@@ -26,14 +25,12 @@ const App = () => {
   
   return (
     <Layout>
-      <ValuesProvider value={values}>
-        <Header />
-        <Container>
-          <Nav />
-          <Values updateValue={updateValue} />
-        </Container>
-        <Footer />
-      </ValuesProvider>
+      <Header />
+      <Container>
+        <Nav />
+        <Values values={values} updateValue={updateValue} />
+      </Container>
+      <Footer values={values} />
     </Layout>
   );
 }

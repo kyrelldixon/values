@@ -1,8 +1,6 @@
-import React, { useContext } from 'react';
-import ValuesContext from '../context/ValuesContext';
+import React from 'react';
 
-const Values = ({ updateValue }) => {
-  const values = useContext(ValuesContext);
+const Values = ({ values, updateValue }) => {
 
   return (
     <ul className="flex flex-col mb-4">
@@ -10,7 +8,6 @@ const Values = ({ updateValue }) => {
     </ul>
   );
 }
-
 
 const ValueCard = ({ value, updateValue, id }) => {
   const getValueStatus = (value) => {
