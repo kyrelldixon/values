@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProgressBar = ({ totalItems, itemsLeft }) => {
+const ProgressBar = ({ totalItems, itemsLeft, coreCount }) => {
   const progressPercent = (totalItems - itemsLeft) / totalItems * 100;
 
   return (
@@ -11,7 +11,8 @@ const ProgressBar = ({ totalItems, itemsLeft }) => {
       <div className="flex justify-between w-full text-sm">
         <small className="text-green-400">{itemsLeft} left</small>
         <small className="text-gray-500">
-          <span className="text-green-400">0</span>/<span className="text-red-400">0</span>
+          <span className="text-green-400">{coreCount}</span>/
+          <span className="text-red-400">{totalItems - itemsLeft - coreCount}</span>
         </small>
       </div>
     </div>
