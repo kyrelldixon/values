@@ -1,124 +1,490 @@
 [
-  "Abundance",
-  "Acceptance",
-  "Accountability",
-  "Achievement",
-  "Adventure",
-  "Advocacy",
-  "Ambition",
-  "Appreciation",
-  "Attractiveness",
-  "Autonomy",
-  "Balance",
-  "Being the Best",
-  "Benevolence",
-  "Boldness",
-  "Brilliance",
-  "Calmness",
-  "Caring",
-  "Challenge",
-  "Charity",
-  "Cheerfulness",
-  "Cleverness",
-  "Collaboration",
-  "Community",
-  "Commitment",
-  "Compassion",
-  "Consistency",
-  "Contribution",
-  "Cooperation",
-  "Creativity",
-  "Credibility",
-  "Curiosity",
-  "Daring",
-  "Decisiveness",
-  "Dedication",
-  "Dependability",
-  "Diversity",
-  "Empathy",
-  "Encouragement",
-  "Enthusiasm",
-  "Ethics",
-  "Excellence",
-  "Expressiveness",
-  "Fairness",
-  "Family",
-  "Flexibility",
-  "Friendships",
-  "Freedom",
-  "Fun",
-  "Generosity",
-  "Grace",
-  "Growth",
-  "Happiness",
-  "Health",
-  "Honesty",
-  "Humility",
-  "Humor",
-  "Inclusiveness",
-  "Independence",
-  "Individuality",
-  "Innovation",
-  "Inspiration",
-  "Intelligence",
-  "Intuition",
-  "Joy",
-  "Kindness",
-  "Knowledge",
-  "Leadership",
-  "Learning",
-  "Love",
-  "Loyalty",
-  "Making a Difference",
-  "Mindfulness",
-  "Motivation",
-  "Optimism",
-  "Open-Mindedness",
-  "Originality",
-  "Passion",
-  "Performance",
-  "Personal Development",
-  "Peace",
-  "Perfection",
-  "Playfulness",
-  "Popularity",
-  "Power",
-  "Preparedness",
-  "Proactivity",
-  "Proactive",
-  "Professionalism",
-  "Punctuality",
-  "Quality",
-  "Recognition",
-  "Relationships",
-  "Reliability",
-  "Resilience",
-  "Resourcefulness",
-  "Responsibility",
-  "Responsiveness",
-  "Risk Taking",
-  "Safety",
-  "Security",
-  "Self-Control",
-  "Selflessness",
-  "Service",
-  "Simplicity",
-  "Spirituality",
-  "Stability",
-  "Success",
-  "Teamwork",
-  "Thankfulness",
-  "Thoughtfulness",
-  "Traditionalism",
-  "Trustworthiness",
-  "Understanding",
-  "Uniqueness",
-  "Usefulness",
-  "Versatility",
-  "Vision",
-  "Warmth",
-  "Wealth",
-  "Well-Being",
-  "Wisdom",
-  "Zeal"
+  {
+    "value": "Abundance",
+    "isCore": false
+  },
+  {
+    "value": "Acceptance",
+    "isCore": false
+  },
+  {
+    "value": "Accountability",
+    "isCore": false
+  },
+  {
+    "value": "Achievement",
+    "isCore": false
+  },
+  {
+    "value": "Adventure",
+    "isCore": false
+  },
+  {
+    "value": "Advocacy",
+    "isCore": false
+  },
+  {
+    "value": "Ambition",
+    "isCore": false
+  },
+  {
+    "value": "Appreciation",
+    "isCore": false
+  },
+  {
+    "value": "Attractiveness",
+    "isCore": false
+  },
+  {
+    "value": "Autonomy",
+    "isCore": false
+  },
+  {
+    "value": "Balance",
+    "isCore": false
+  },
+  {
+    "value": "Being the Best",
+    "isCore": false
+  },
+  {
+    "value": "Benevolence",
+    "isCore": false
+  },
+  {
+    "value": "Boldness",
+    "isCore": false
+  },
+  {
+    "value": "Brilliance",
+    "isCore": false
+  },
+  {
+    "value": "Calmness",
+    "isCore": false
+  },
+  {
+    "value": "Caring",
+    "isCore": false
+  },
+  {
+    "value": "Challenge",
+    "isCore": false
+  },
+  {
+    "value": "Charity",
+    "isCore": false
+  },
+  {
+    "value": "Cheerfulness",
+    "isCore": false
+  },
+  {
+    "value": "Cleverness",
+    "isCore": false
+  },
+  {
+    "value": "Collaboration",
+    "isCore": false
+  },
+  {
+    "value": "Community",
+    "isCore": false
+  },
+  {
+    "value": "Commitment",
+    "isCore": false
+  },
+  {
+    "value": "Compassion",
+    "isCore": false
+  },
+  {
+    "value": "Consistency",
+    "isCore": false
+  },
+  {
+    "value": "Contribution",
+    "isCore": false
+  },
+  {
+    "value": "Cooperation",
+    "isCore": false
+  },
+  {
+    "value": "Creativity",
+    "isCore": false
+  },
+  {
+    "value": "Credibility",
+    "isCore": false
+  },
+  {
+    "value": "Curiosity",
+    "isCore": false
+  },
+  {
+    "value": "Daring",
+    "isCore": false
+  },
+  {
+    "value": "Decisiveness",
+    "isCore": false
+  },
+  {
+    "value": "Dedication",
+    "isCore": false
+  },
+  {
+    "value": "Dependability",
+    "isCore": false
+  },
+  {
+    "value": "Diversity",
+    "isCore": false
+  },
+  {
+    "value": "Empathy",
+    "isCore": false
+  },
+  {
+    "value": "Encouragement",
+    "isCore": false
+  },
+  {
+    "value": "Enthusiasm",
+    "isCore": false
+  },
+  {
+    "value": "Ethics",
+    "isCore": false
+  },
+  {
+    "value": "Excellence",
+    "isCore": false
+  },
+  {
+    "value": "Expressiveness",
+    "isCore": false
+  },
+  {
+    "value": "Fairness",
+    "isCore": false
+  },
+  {
+    "value": "Family",
+    "isCore": false
+  },
+  {
+    "value": "Flexibility",
+    "isCore": false
+  },
+  {
+    "value": "Friendships",
+    "isCore": false
+  },
+  {
+    "value": "Freedom",
+    "isCore": false
+  },
+  {
+    "value": "Fun",
+    "isCore": false
+  },
+  {
+    "value": "Generosity",
+    "isCore": false
+  },
+  {
+    "value": "Grace",
+    "isCore": false
+  },
+  {
+    "value": "Growth",
+    "isCore": false
+  },
+  {
+    "value": "Happiness",
+    "isCore": false
+  },
+  {
+    "value": "Health",
+    "isCore": false
+  },
+  {
+    "value": "Honesty",
+    "isCore": false
+  },
+  {
+    "value": "Humility",
+    "isCore": false
+  },
+  {
+    "value": "Humor",
+    "isCore": false
+  },
+  {
+    "value": "Inclusiveness",
+    "isCore": false
+  },
+  {
+    "value": "Independence",
+    "isCore": false
+  },
+  {
+    "value": "Individuality",
+    "isCore": false
+  },
+  {
+    "value": "Innovation",
+    "isCore": false
+  },
+  {
+    "value": "Inspiration",
+    "isCore": false
+  },
+  {
+    "value": "Intelligence",
+    "isCore": false
+  },
+  {
+    "value": "Intuition",
+    "isCore": false
+  },
+  {
+    "value": "Joy",
+    "isCore": false
+  },
+  {
+    "value": "Kindness",
+    "isCore": false
+  },
+  {
+    "value": "Knowledge",
+    "isCore": false
+  },
+  {
+    "value": "Leadership",
+    "isCore": false
+  },
+  {
+    "value": "Learning",
+    "isCore": false
+  },
+  {
+    "value": "Love",
+    "isCore": false
+  },
+  {
+    "value": "Loyalty",
+    "isCore": false
+  },
+  {
+    "value": "Making a Difference",
+    "isCore": false
+  },
+  {
+    "value": "Mindfulness",
+    "isCore": false
+  },
+  {
+    "value": "Motivation",
+    "isCore": false
+  },
+  {
+    "value": "Optimism",
+    "isCore": false
+  },
+  {
+    "value": "Open-Mindedness",
+    "isCore": false
+  },
+  {
+    "value": "Originality",
+    "isCore": false
+  },
+  {
+    "value": "Passion",
+    "isCore": false
+  },
+  {
+    "value": "Performance",
+    "isCore": false
+  },
+  {
+    "value": "Personal Development",
+    "isCore": false
+  },
+  {
+    "value": "Peace",
+    "isCore": false
+  },
+  {
+    "value": "Perfection",
+    "isCore": false
+  },
+  {
+    "value": "Playfulness",
+    "isCore": false
+  },
+  {
+    "value": "Popularity",
+    "isCore": false
+  },
+  {
+    "value": "Power",
+    "isCore": false
+  },
+  {
+    "value": "Preparedness",
+    "isCore": false
+  },
+  {
+    "value": "Proactivity",
+    "isCore": false
+  },
+  {
+    "value": "Proactive",
+    "isCore": false
+  },
+  {
+    "value": "Professionalism",
+    "isCore": false
+  },
+  {
+    "value": "Punctuality",
+    "isCore": false
+  },
+  {
+    "value": "Quality",
+    "isCore": false
+  },
+  {
+    "value": "Recognition",
+    "isCore": false
+  },
+  {
+    "value": "Relationships",
+    "isCore": false
+  },
+  {
+    "value": "Reliability",
+    "isCore": false
+  },
+  {
+    "value": "Resilience",
+    "isCore": false
+  },
+  {
+    "value": "Resourcefulness",
+    "isCore": false
+  },
+  {
+    "value": "Responsibility",
+    "isCore": false
+  },
+  {
+    "value": "Responsiveness",
+    "isCore": false
+  },
+  {
+    "value": "Risk Taking",
+    "isCore": false
+  },
+  {
+    "value": "Safety",
+    "isCore": false
+  },
+  {
+    "value": "Security",
+    "isCore": false
+  },
+  {
+    "value": "Self-Control",
+    "isCore": false
+  },
+  {
+    "value": "Selflessness",
+    "isCore": false
+  },
+  {
+    "value": "Service",
+    "isCore": false
+  },
+  {
+    "value": "Simplicity",
+    "isCore": false
+  },
+  {
+    "value": "Spirituality",
+    "isCore": false
+  },
+  {
+    "value": "Stability",
+    "isCore": false
+  },
+  {
+    "value": "Success",
+    "isCore": false
+  },
+  {
+    "value": "Teamwork",
+    "isCore": false
+  },
+  {
+    "value": "Thankfulness",
+    "isCore": false
+  },
+  {
+    "value": "Thoughtfulness",
+    "isCore": false
+  },
+  {
+    "value": "Traditionalism",
+    "isCore": false
+  },
+  {
+    "value": "Trustworthiness",
+    "isCore": false
+  },
+  {
+    "value": "Understanding",
+    "isCore": false
+  },
+  {
+    "value": "Uniqueness",
+    "isCore": false
+  },
+  {
+    "value": "Usefulness",
+    "isCore": false
+  },
+  {
+    "value": "Versatility",
+    "isCore": false
+  },
+  {
+    "value": "Vision",
+    "isCore": false
+  },
+  {
+    "value": "Warmth",
+    "isCore": false
+  },
+  {
+    "value": "Wealth",
+    "isCore": false
+  },
+  {
+    "value": "Well-Being",
+    "isCore": false
+  },
+  {
+    "value": "Wisdom",
+    "isCore": false
+  },
+  {
+    "value": "Zeal",
+    "isCore": false
+  }
 ]

@@ -6,14 +6,14 @@ const Values = () => {
 
   return (
     <ul className="flex flex-col mb-4">
-      { values.map(value => <ValueCard key={value} value={value} />) }
+      { values.map(value => <ValueCard key={value.value} value={value} />) }
     </ul>
   );
 }
 
 
 const ValueCard = ({ value }) => (
-  <li className="text-center border-2 border-gray-400 px-4 py-12 mt-2">{value}</li>
+  <li className="text-center border-2 border-gray-400 px-4 py-12 mt-2">{value.value}</li>
 );
 
 export default Values;
