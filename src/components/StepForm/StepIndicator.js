@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nav = () => (
+const StepIndicator = () => (
   <nav className="flex justify-around my-4">
     <button className="w-1/2 bg-purple-200 font-medium py-1 px-6 rounded-full border-2 border-purple-600">
       Sort Values
@@ -11,4 +11,4 @@ const Nav = () => (
   </nav>
 );
 
-export default Nav;
+export default StepIndicator;
