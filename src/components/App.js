@@ -10,7 +10,19 @@ import { ValuesProvider } from '../context/ValuesContext';
 import allValues from '../values.json';
 
 const App = () => {
-  const [ values, ] = useState(allValues);
+  const [ values, setValues ] = useState(allValues);
+  
+  const updateValue = (id) => {
+    const updatedValues = values.map((value, i) => {
+      if (i === id) {
+        value.isCore = !value.isCore;
+        return value;
+      }
+      return value;
+    });
+
+    setValues(updatedValues);
+  }
   
   return (
     <Layout>
@@ -18,7 +30,7 @@ const App = () => {
         <Header />
         <Container>
           <Nav />
-          <Values />
+          <Values updateValue={updateValue} />
         </Container>
         <Footer />
       </ValuesProvider>
