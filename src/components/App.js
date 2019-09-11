@@ -6,19 +6,21 @@ import Layout from './Layout';
 import Container from './Container';
 import Footer from './Footer';
 
-import mockValues from '../values.json';
+import { ValuesProvider } from '../context/ValuesContext';
+import allValues from '../values.json'
 
 const App = () => {
-  const [values,] = useState(mockValues);
-
+  const [ values, ] = useState(allValues)
   return (
     <Layout>
-      <Header />
-      <Container>
-        <Nav />
-        <Values values={values} />
-      </Container>
-      <Footer />
+      <ValuesProvider value={values}>
+        <Header />
+        <Container>
+          <Nav />
+          <Values />
+        </Container>
+        <Footer />
+      </ValuesProvider>
     </Layout>
   );
 }
