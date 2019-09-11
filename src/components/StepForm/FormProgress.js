@@ -1,7 +1,7 @@
 import React from 'react';
 import ProgressBar from '../ProgressBar';
 
-const FormProgress = ({ values }) => {
+const FormProgress = ({ values, nextStep }) => {
   const itemsLeft = values.filter(value => value.isCore === null);
   const coreValues = values.filter(value => value.isCore);
   const isDisabled = coreValues.length < 10;
@@ -13,7 +13,10 @@ const FormProgress = ({ values }) => {
         totalItems={values.length}
         itemsLeft={itemsLeft.length}
       />
-      <button className="bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-medium p-2 rounded" disabled={isDisabled}>Your Top 10</button>
+      <button className="bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-medium p-2 rounded" 
+        disabled={isDisabled}
+        onClick={nextStep}
+      >Your Top 10</button>
     </div>
   );
 }
