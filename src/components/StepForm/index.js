@@ -12,6 +12,8 @@ const StepForm = ({ values, toggleValue }) => {
   const nextStep = () => {
     setStep(step + 1);
   }
+
+  const goToStep = step => () => setStep(step);
   
   const renderStep = () => {
     return step === 1 ? 
@@ -21,7 +23,7 @@ const StepForm = ({ values, toggleValue }) => {
 
   return (
     <Container>
-      <StepNav setStep={setStep} currentStep={step} />
+      <StepNav goToStep={goToStep} currentStep={step} />
       <form className="mx-auto max-w-md">
         { renderStep() }
       </form>

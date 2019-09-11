@@ -1,25 +1,21 @@
 import React from 'react';
 
-const StepNav = ({ currentStep, setStep }) => {
-  const goToStep = step => () => setStep(step);
-
-  return (
-    <nav className="flex justify-around my-4">
-      <StepButton
-        active={currentStep === 1}
-        goToStep={goToStep(1)}
-      >
-        Sort Values
-      </StepButton>
-      <StepButton
-        active={currentStep === 2}
-        goToStep={goToStep(2)}
-      >
-        Your Top 10
-      </StepButton>
-    </nav>
-  );
-}
+const StepNav = ({ currentStep, goToStep }) => (
+  <nav className="flex justify-around my-4">
+    <StepButton
+      active={currentStep === 1}
+      goToStep={goToStep(1)}
+    >
+      Sort Values
+    </StepButton>
+    <StepButton
+      active={currentStep === 2}
+      goToStep={goToStep(2)}
+    >
+      Your Top 10
+    </StepButton>
+  </nav>
+);
 
 const StepButton = ({ active, children, goToStep }) => {
   const activeClass = "bg-purple-200 border-purple-600";
