@@ -3,8 +3,8 @@ import Header from './Header';
 import Nav from './Nav';
 import Values from './Values';
 import Layout from './Layout';
-import Container from './Container';
 import Footer from './Footer';
+import StepForm from './StepForm';
 
 import useValues from '../hooks/use-values';
 
@@ -16,10 +16,10 @@ const App = () => {
   return (
     <Layout>
       <Header />
-      <Container>
+      <StepForm>
         <Nav />
         <Values values={values} toggleValue={toggleValue} />
-      </Container>
+      </StepForm>
       <Footer values={values} />
     </Layout>
   );
