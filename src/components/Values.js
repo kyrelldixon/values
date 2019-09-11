@@ -12,13 +12,26 @@ const Values = ({ updateValue }) => {
 }
 
 
-const ValueCard = ({ value, updateValue, id }) => (
-  <li className="text-center border-2 border-gray-400 px-4 py-12 mt-2">
-    <div>
-      <p>{value.name}</p>
-      <p onClick={() => updateValue(id)}>{value.isCore ? "Core" : "Non Core"}</p>
-    </div>
-  </li>
-);
+const ValueCard = ({ value, updateValue, id }) => {
+  const getValueStatus = (value) => {
+    if (value.isCore === null) {
+      return "Undecided";
+    } else if (value.isCore) {
+      return "Core"
+    } else {
+      return "Non Core"
+    }
+  }
+
+  return (
+    <li className="text-center border-2 border-gray-400 px-4 py-12 mt-2">
+      <div>
+        <p>{value.name}</p>
+        <p onClick={() => updateValue(id)}>{getValueStatus(value)}</p>
+      </div>
+    </li>
+  );
+}
+
 
 export default Values;
