@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Values = ({ values, updateValue }) => {
+const Values = ({ values, toggleValue }) => {
 
   return (
     <ul className="flex flex-col mb-4">
-      { values.map((value, index) => <ValueCard key={value.name} value={value} id={index} updateValue={updateValue} />) }
+      { values.map((value, index) => <ValueCard key={value.name} value={value} id={index} toggleValue={toggleValue} />) }
     </ul>
   );
 }
 
-const ValueCard = ({ value, updateValue, id }) => {
+const ValueCard = ({ value, toggleValue, id }) => {
   const getValueStatus = (value) => {
     if (value.isCore === null) {
       return "Undecided";
@@ -24,7 +24,7 @@ const ValueCard = ({ value, updateValue, id }) => {
     <li className="text-center border-2 border-gray-400 px-4 py-12 mt-2">
       <div>
         <p>{value.name}</p>
-        <p onClick={() => updateValue(id)}>{getValueStatus(value)}</p>
+        <p onClick={() => toggleValue(id)}>{getValueStatus(value)}</p>
       </div>
     </li>
   );
