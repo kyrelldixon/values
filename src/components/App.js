@@ -1,7 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Nav from './Nav';
-import Values from './Values';
 import Layout from './Layout';
 import Footer from './Footer';
 import StepForm from './StepForm';
@@ -16,10 +14,7 @@ const App = () => {
   return (
     <Layout>
       <Header />
-      <StepForm>
-        <Nav />
-        <Values values={values} toggleValue={toggleValue} />
-      </StepForm>
+      <StepForm values={values} toggleValue={toggleValue} />
       <Footer values={values} />
     </Layout>
   );
