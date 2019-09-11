@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from '../Nav';
 import Container from '../Container';
-import Footer from '../Footer';
+import FormProgress from './FormProgress';
 
 import Step1 from './Step1';
 import Step2 from './Step2';
@@ -21,7 +21,7 @@ const StepForm = ({ values, toggleValue }) => {
       <form className="mx-auto max-w-md">
         { renderStep() }
       </form>
-      <Footer values={values} />
+      <FormProgress values={values} />
     </Container>
   );
 }
