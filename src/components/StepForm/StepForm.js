@@ -2,12 +2,22 @@ import React, { useState } from 'react';
 import StepNav from './StepNav';
 import Container from '../Container';
 import FormProgress from './FormProgress';
+import Modal from '../Modal';
 
 import Step1 from './Step1';
 import Step2 from './Step2';
 
 const StepForm = ({ values, toggleValue }) => {
   const [step, setStep] = useState(1);
+  const [modalOpen, setModalOpen] = useState(true);
+
+  const closeModal = () => {
+    setModalOpen(false);
+  }
+
+  const openModal = () => {
+    setModalOpen(true);
+  }
 
   const goToStep = step => () => setStep(step);
   
@@ -27,7 +37,11 @@ const StepForm = ({ values, toggleValue }) => {
         currentStep={step}
         goToStep2={goToStep(2)}
         values={values}
+        openModal={openModal}
       />
+      <Modal open={modalOpen} closeModal={closeModal}>
+        <p>I am inside the modal</p>
+      </Modal>
     </Container>
   );
 }
