@@ -1,16 +1,25 @@
 import React from 'react';
 
-const StepNav = () => {
+const StepNav = ({ currentStep }) => (
+  <nav className="flex justify-around my-4">
+    <StepButton active={currentStep === 1}>
+      Sort Values
+    </StepButton>
+    <StepButton active={currentStep === 2}>
+      Your Top 10
+    </StepButton>
+  </nav>
+);
 
+const StepButton = ({ active, children }) => {
+  const activeClass = "bg-purple-200 border-purple-600";
+  const inactiveClass = "border-gray-300"
+  const className = `w-1/2 font-medium py-1 px-6 rounded-full border-2 ${active ? activeClass : inactiveClass}`;
+  
   return (
-    <nav className="flex justify-around my-4">
-      <button className="w-1/2 bg-purple-200 font-medium py-1 px-6 rounded-full border-2 border-purple-600">
-        Sort Values
-      </button>
-      <button className="w-1/2 font-medium py-1 px-6 rounded-full border-2 border-gray-300">
-        Your Top 10
-      </button>
-    </nav>
+    <button className={className}>
+      { children }
+    </button>
   );
 }
 

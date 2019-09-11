@@ -21,7 +21,7 @@ const StepForm = ({ values, toggleValue }) => {
 
   return (
     <Container>
-      <StepIndicator />
+      <StepIndicator currentStep={step} />
       <form className="mx-auto max-w-md">
         { renderStep() }
       </form>
