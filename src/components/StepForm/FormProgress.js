@@ -14,7 +14,8 @@ const FormProgress = ({ values, goToStep2, openModal, currentStep }) => {
         totalItems={values.length}
         itemsLeft={itemsLeft.length}
       />
-      <Button 
+      <Button
+        primary
         disabled={isDisabled}
         onClick={ currentStep !== 2 ? goToStep2 : openModal }
       >
