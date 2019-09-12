@@ -1,4 +1,13 @@
 /* Tailwind CSS imports */
 @tailwind base;
 @tailwind components;
+
+.btn-primary {
+  @apply bg-purple-600 text-white
+}
+
+.btn-secondary {
+  @apply border border-purple-600 text-purple-600
+}
+
 @tailwind utilities;

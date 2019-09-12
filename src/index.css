@@ -633,6 +633,17 @@ video {
   }
 }
 
+.btn-primary {
+  background-color: #805ad5;
+  color: #fff
+}
+
+.btn-secondary {
+  border-width: 1px;
+  border-color: #805ad5;
+  color: #805ad5
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
