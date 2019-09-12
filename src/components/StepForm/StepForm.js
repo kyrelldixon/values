@@ -8,8 +8,10 @@ import ModalFinish from '../ModalFinish';
 import Step1 from './Step1';
 import Step2 from './Step2';
 
+import useStepForm from '../../hooks/use-step-form';
+
 const StepForm = ({ values, toggleValue }) => {
-  const [step, setStep] = useState(1);
+  const [step, { goToStep }] = useStepForm(1);
   const [modalOpen, setModalOpen] = useState(false);
 
   const closeModal = () => {
@@ -19,8 +21,6 @@ const StepForm = ({ values, toggleValue }) => {
   const openModal = () => {
     setModalOpen(true);
   }
-
-  const goToStep = step => () => setStep(step);
   
   const renderStep = () => {
     return step === 1 ? 
