@@ -1,5 +1,6 @@
 import React from 'react';
 import ProgressBar from '../ProgressBar';
+import Button from '../Button';
 
 const FormProgress = ({ values, goToStep2, openModal, currentStep }) => {
   const itemsLeft = values.filter(value => value.isCore === null);
@@ -13,12 +14,12 @@ const FormProgress = ({ values, goToStep2, openModal, currentStep }) => {
         totalItems={values.length}
         itemsLeft={itemsLeft.length}
       />
-      <button className="bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-medium p-2 rounded" 
+      <Button 
         disabled={isDisabled}
         onClick={ currentStep !== 2 ? goToStep2 : openModal }
       >
         { currentStep > 1 ? "Finish" : "Your Top 10" }
-      </button>
+      </Button>
     </div>
   );
 }
