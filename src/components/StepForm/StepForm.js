@@ -10,7 +10,7 @@ import Step2 from './Step2';
 
 const StepForm = ({ values, toggleValue }) => {
   const [step, setStep] = useState(1);
-  const [modalOpen, setModalOpen] = useState(true);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const closeModal = () => {
     setModalOpen(false);

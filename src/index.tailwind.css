@@ -10,4 +10,11 @@
   @apply border border-purple-600 text-purple-600
 }
 
+.modal-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @tailwind utilities;
