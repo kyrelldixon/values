@@ -3,7 +3,7 @@ import StepNav from './StepNav';
 import Container from '../Container';
 import FormProgress from './FormProgress';
 import Modal from '../Modal';
-import ModalFinish from '../ModalFinish';
+import ModalInner from '../ModalInner';
 
 import Step1 from './Step1';
 import Step2 from './Step2';
@@ -34,7 +34,7 @@ const StepForm = ({ values, toggleValue }) => {
         openModal={openModal}
       />
       <Modal open={modalOpen} closeModal={closeModal}>
-        <ModalFinish />
+        <ModalInner />
       </Modal>
     </Container>
   );
