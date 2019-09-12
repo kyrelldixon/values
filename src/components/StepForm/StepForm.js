@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import StepNav from './StepNav';
 import Container from '../Container';
 import FormProgress from './FormProgress';
@@ -9,18 +9,11 @@ import Step1 from './Step1';
 import Step2 from './Step2';
 
 import useStepForm from '../../hooks/use-step-form';
+import useTogglable from '../../hooks/use-togglable';
 
 const StepForm = ({ values, toggleValue }) => {
   const [step, { goToStep }] = useStepForm(1);
-  const [modalOpen, setModalOpen] = useState(false);
-
-  const closeModal = () => {
-    setModalOpen(false);
-  }
-
-  const openModal = () => {
-    setModalOpen(true);
-  }
+  const [modalOpen, openModal, closeModal] = useTogglable(false);
   
   const renderStep = () => {
     return step === 1 ? 
