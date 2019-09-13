@@ -1,6 +1,7 @@
 import React from 'react';
 import ProgressBar from '../ProgressBar';
 import Button from '../Button';
+import Emoji from '../Emoji';
 
 const FormProgress = ({ values, goToStep2, openModal, currentStep }) => {
   const itemsLeft = values.filter(value => value.isCore === null);
@@ -18,9 +19,12 @@ const FormProgress = ({ values, goToStep2, openModal, currentStep }) => {
   const renderButtonInner = () => (
     currentStep === 2 ? 
       <>
-        Finish <span aria-label="hand pointing right" role="img">👉</span>
+        Finish <Emoji emojiName="hand pointing right" emoji="👉" />
       </>
-      : <>Your Top 10 <span aria-label="hand pointing right" role="img">👉</span></>
+      : 
+      <>
+        Your Top 10 <Emoji emojiName="hand pointing right" emoji="👉" />
+      </>
   )
   
   return (
