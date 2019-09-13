@@ -14,6 +14,14 @@ const FormProgress = ({ values, goToStep2, openModal, currentStep }) => {
       openModal(); 
     }
   }
+
+  const renderButtonInner = () => (
+    currentStep === 2 ? 
+      <>
+        Finish <span aria-label="hand pointing right" role="img">👉</span>
+      </>
+      : <>Your Top 10 <span aria-label="hand pointing right" role="img">👉</span></>
+  )
   
   return (
     <div className="text-sm fixed left-0 bottom-0 bg-white w-full border-t-2 border-gray-400 px-6 py-4">
@@ -28,7 +36,7 @@ const FormProgress = ({ values, goToStep2, openModal, currentStep }) => {
           disabled={isDisabled}
           onClick={handleClick}
         >
-          { currentStep > 1 ? "Finish" : "Your Top 10" }
+          { renderButtonInner() }
         </Button>
       </div>
     </div>
