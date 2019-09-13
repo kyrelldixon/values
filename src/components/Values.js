@@ -20,11 +20,15 @@ const ValueCard = ({ value, toggleValue, id }) => {
     }
   }
 
+  const handleClick = () => {
+   toggleValue && toggleValue(id);
+  }
+
   return (
     <li className="text-center border-2 border-gray-400 px-4 py-12 mt-2">
       <div>
         <p>{value.name}</p>
-        <p onClick={() => toggleValue(id)}>{getValueStatus(value)}</p>
+        <p onClick={handleClick}>{getValueStatus(value)}</p>
       </div>
     </li>
   );
