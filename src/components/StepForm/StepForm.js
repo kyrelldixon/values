@@ -15,10 +15,12 @@ const StepForm = ({ values, toggleValue }) => {
   const [step, { goToStep }] = useStepForm(1);
   const [modalOpen, openModal, closeModal] = useTogglable(false);
   
+  const coreValues = values.filter(value => value.isCore);
+  
   const renderStep = () => {
     return step === 1 ? 
       <Step1 values={values} toggleValue={toggleValue} /> : 
-      <Step2 />
+      <Step2 values={coreValues} />
   }
 
   return (
